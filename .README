@@ -1,0 +1,3 @@
+npm uninstall react-day-picker npm install react-day-picker
+
+npm install next react react-dom

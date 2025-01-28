@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 17, 24, 39;
+  --background-end-rgb: 17, 24, 39;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+}
+
+* {
+  transition: all 0.3s ease-in-out;
+}
+
+.game-button {
+  @apply bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition-colors duration-300;
+}
+
+.game-input {
+  @apply px-2 py-1 text-black rounded border-2 border-gray-300 focus:border-blue-500 focus:outline-none;
+}
+
+.game-grid {
+  @apply grid gap-2 mb-4;
+}
+
+.game-card {
+  @apply w-16 h-16 text-2xl flex items-center justify-center rounded transition-colors duration-300;
+}
+
+/* Styles for better visibility with the 3D background */
+.bg-gray-800 {
+  @apply bg-opacity-80;
+}
+
+.bg-gray-700 {
+  @apply bg-opacity-80;
+}
+
+.bg-blue-500 {
+  @apply bg-opacity-90;
+}
+
+/* New styles for content readability */
+.content-overlay {
+  @apply bg-gray-900 bg-opacity-80 p-6 rounded-lg shadow-lg;
+}
+
+/* Style for the dividers */
+hr {
+  @apply border-gray-600 my-12;
+}
+
+/* Style for company section banner */
+.company-banner {
+  @apply w-full h-40 object-cover rounded-t-lg;
+}
+
