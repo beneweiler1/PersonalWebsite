@@ -6,7 +6,7 @@ import GuessTheNumber from "../components/games/GuessTheNumber"
 const personalProjects = [
   {
     title: "Image to Lego 2D portriat",
-    description: "A Node.js-based service to convert images to 2D Lego or Perler.",
+    description: "A Node.js and Python based service to convert images to 2D Lego or Perler.",
     imageUrl: "/Perler.jpg?height=200&width=400",
     liveUrl: "https://github.com/beneweiler1/LegoImageQuanitization",
   },

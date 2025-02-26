@@ -101,7 +101,8 @@ export default function Home() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Hobbies</h2>
             <ul className="list-disc list-inside">
-            <li> Guitar </li>
+              <li> Guitar </li>
+              <li> Meditation </li>
               <li> Live Music</li>
               <li> Reading </li>
               <li> Camping </li>
