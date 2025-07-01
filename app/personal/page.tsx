@@ -5,6 +5,12 @@ import GuessTheNumber from "../components/games/GuessTheNumber"
 
 const personalProjects = [
   {
+    title: "AI Agent Builder | Apollo",
+    description: "An ai agent builder that enables a user to configure and interact with an agentic syste,.",
+    imageUrl: "/ai_agent_builder.jpg?height=200&width=400",
+    liveUrl: "https://app.arcade.software/share/FbXl2QgftGpKo2CL5qY6",
+  },
+  {
     title: "Image to Lego 2D portriat",
     description: "A Node.js and Python based service to convert images to 2D Lego or Perler.",
     imageUrl: "/Perler.jpg?height=200&width=400",

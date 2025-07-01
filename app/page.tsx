@@ -73,6 +73,9 @@ export default function Home() {
           <div>
             <h2 className="text-2xl font-bold mb-4">Skills</h2>
             <div className="flex flex-wrap gap-2">
+              <Badge>AI Agent Engineering</Badge>
+              <Badge>Agile/Scrum</Badge>
+              <Badge>Project Management</Badge>
               <Badge>TypeScript</Badge>
               <Badge>C#</Badge>
               <Badge>Java</Badge>
