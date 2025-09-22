@@ -18,6 +18,12 @@ const professionalProjects = [
         imageUrl: "/C4C.png?height=200&width=400",
         liveUrl: "https://prd.connectforhealthco.com/login-portal/login/individuals",
       },
+      {
+        title: "AI Training Portfolio",
+        description: "Selected to be part of an intensive AI training program to learn and implement AI solutions. Still in progress 09/2024-1/2025",
+        imageUrl: "/AITraining.png?height=200&width=400",
+        liveUrl: "https://www.loom.com/share/85eb7ceb7f224969b3c49414b9f964db?sid=626b0a29-84a7-4df3-98e1-dcd5dfb7b491",
+      },
     ],
   },
   {
